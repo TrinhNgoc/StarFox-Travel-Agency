@@ -2,11 +2,98 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="/bower_components/foundation/css/foundation.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>StarFox Travel Agency</title>
+  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <h1>Hello text</h1>
+  <div id="header-block">
+    <header>
+      <h1 id="title">
+        <a href=""><strong>StarFox</strong> Intergalactic Travel Agency</a>
+      </h1><!-- title -->
+      <nav class="top-bar contain-to-grid" data-topbar role="navigation">
+        <ul class="title-area show-for-small-only">
+          <li class="name">
+            <h1><a href="#">StarFox</a></h1>
+          </li><!-- name -->
+           <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul><!-- title-area -->
+        <section class="top-bar-section">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Interstellar Travel</a></li>
+          </ul>
+        </section><!-- top-bar-section -->
+      </nav><!-- top-bar -->
+    </header> 
+  </div><!-- header-block -->
+
+  <div id="content-block">
+    <div class="row">
+      <div class="small-12 medium-12 large-8 columns">
+        <p>We will take you to the <strong>Moon and Back!</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae leo est. Maecenas sit amet nisi tellus. Donec a consequat mi, ut sodales eros!</p>
+      </div>
+      <div class="small-12 medium-12 large-4 columns">
+        <div>
+          <a href="#" class="button">Find Out More</a>
+        </div>
+      </div>
+    </div><!-- row -->
+
+    <div class="row">
+      <div class="small-12 medium-12 large-4 columns">
+        <a href="#">
+          <h4>To the Moon</h4>
+          <h1>$30,000</h1>
+          <p>Covers travel fare, lodgings, and meals for 3 months in space.</p>
+        </a>
+      </div>
+      <div class="small-12 medium-12 large-4 columns">
+        <a href="#">
+          <h4>Just Around Earth</h4>
+          <h1>$10,000</h1>
+          <p>Covers travel fare, lodgings, and meals for 2 weeks in space.</p>
+        </a>
+      </div>
+      <div class="large-4 columns">
+        <li class="hide-for-small-only hide-for-medium-only">
+          <a href="#">
+            <h4>Just to Jupiter</h4>
+            <p>$26,000</p>
+          </a>
+        </li>
+        <li class="hide-for-small-only hide-for-medium-only ">
+          <a href="#">
+            <h4>Ceter of the Earth</h4>
+            <p>$156,000</p>
+          </a>
+        </li>
+        <li>
+          <h3>
+            <a href="#" class="button expand">More Deals</a>
+          </h3>
+        </li>
+      </div>
+    </div> 
+
+  </div><!-- content-block -->
+  
+  <div id="footer-block">
+    <p>UFO graphics designed by Karl Gaynor and Dmitriy Lagunov from the Noun Project</p>
+  </div><!-- footer-block -->
+  
+
+
+
+  <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="/bower_components/foundation/js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
 </body>
 </html>

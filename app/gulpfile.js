@@ -8,7 +8,7 @@ gulp.task('styles', function () {
 });
 
 gulp.task('watch_styles', function () {
-  gulp.watch('./sass/*.scss', ['styles']);
+  gulp.watch('./sass/**/*.scss', ['styles']);
   gulp.watch('*.html', notifyLiveReload);
   gulp.watch('css/*.css', notifyLiveReload);
 });

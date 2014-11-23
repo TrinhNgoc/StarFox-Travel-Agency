@@ -1,6 +1,36 @@
-$gunmetal_gray: #232329;
+@import "partials/settings";
+@import "../bower_components/foundation/scss/foundation.scss";
 
-body {
-  background: $gunmetal_gray;
-  color: red;
+$teal:#99CCCC;
+$black: #000;
+
+#header-block {
+  background-color: $teal;
+  background-image: url('/Assets/header_bg.png'), url(/Assets/logo.png);
+  background-repeat: repeat, no-repeat;
+  background-position: center top;
+
+  height: 180px;
+  position: relative;
+
+  #title {
+    font-size: 20px;
+  }
+
+  #title a{
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: $black;
+  }
+
+  .top-bar {
+    position: absolute;
+    bottom: -20px;
+  }
 }
+
+
+
