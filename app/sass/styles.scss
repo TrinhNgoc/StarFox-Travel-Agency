@@ -8,27 +8,45 @@ $black: #000;
   background-color: $teal;
   background-image: url('/Assets/header_bg.png'), url(/Assets/logo.png);
   background-repeat: repeat, no-repeat;
-  background-position: center top;
-
-  height: 180px;
+  background-position: 50% 30%;
+  height: 220px;
   position: relative;
+  padding-top: 1px;
 
   #title {
     font-size: 20px;
+    
+    a{ 
+      position: absolute;
+      bottom: 50px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      color: $black;
+      font-family: 'Open Sans', sans-serif;
+    }
   }
 
-  #title a{
-    position: absolute;
-    bottom: 30px;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    color: $black;
-  }
 
   .top-bar {
     position: absolute;
     bottom: -20px;
+    text-align: center;
+  }
+
+  .top-bar .top-bar-section {
+    display: inline-block;
+  }
+
+  .top-bar .top-bar-section ul li a {
+    color: $teal;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+  }
+
+  .top-bar .top-bar-section ul li a:hover {
+    color: #FFF;
   }
 }
 

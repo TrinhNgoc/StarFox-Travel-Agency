@@ -5560,18 +5560,30 @@ th.hide-for-touch {
   background-color: #99CCCC;
   background-image: url('/Assets/header_bg.png'), url(/Assets/logo.png);
   background-repeat: repeat, no-repeat;
-  background-position: center top;
-  height: 180px;
-  position: relative; }
+  background-position: 50% 30%;
+  height: 220px;
+  position: relative;
+  padding-top: 1px; }
   #header-block #title {
     font-size: 20px; }
-  #header-block #title a {
-    position: absolute;
-    bottom: 30px;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    color: #000; }
+    #header-block #title a {
+      position: absolute;
+      bottom: 50px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      color: #000;
+      font-family: 'Open Sans', sans-serif; }
   #header-block .top-bar {
     position: absolute;
-    bottom: -20px; }
+    bottom: -20px;
+    text-align: center; }
+  #header-block .top-bar .top-bar-section {
+    display: inline-block; }
+  #header-block .top-bar .top-bar-section ul li a {
+    color: #99CCCC;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600; }
+  #header-block .top-bar .top-bar-section ul li a:hover {
+    color: #FFF; }
