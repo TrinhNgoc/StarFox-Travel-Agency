@@ -35,7 +35,7 @@ $white: #FFF;
   .top-bar {
     position: absolute;
     bottom: -20px;
-    left: 159px;
+    left: 180px;
     text-align: center;
     border-radius: 10px;
     width: 80%;
@@ -64,8 +64,11 @@ $white: #FFF;
 
   .main-content{
     background-color: $teal;
-    padding: 50px;
+    padding: 70px;
     border-radius: 5px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     p {
       font-family: 'Open Sans', sans-serif;
       font-size: 25px;
@@ -74,14 +77,15 @@ $white: #FFF;
     img {
       position: absolute;
       bottom: -100px;
+      left: 120px;
       padding: 20px;
     }
     .button {
       position: absolute;
       background-color: $grey;
       top: 120px;
-      left: 30px;
-      width: 90%;
+      left: 100px;
+      width: 70%;
       border-bottom: 5px solid $black;
     }
   }
@@ -98,19 +102,22 @@ $white: #FFF;
     
     .moon {
       background-color: $grey;
-      padding: 35px;
-      margin-right: 10px;
-      margin-left: -20px;
+      // padding: 35px;
+      // margin-right: 10px;
+      // margin-left: -20px;
+      height: 300px;
     }
 
     .earth {
       background-color: $grey;
-      padding: 35px;
+      // padding: 35px;
+      height: 300px;
     }
 
     .jupiter {
       background-color: $grey;
       list-style-type: none;
+      height: 300px;
 
       .button.expand {
         top: 27px;
@@ -122,7 +129,7 @@ $white: #FFF;
 
 #footer-block {
   position: relative;
-  top: 25px;
+  top: 55px;
   height: 70px;
   background-color: $footergrey; 
 
