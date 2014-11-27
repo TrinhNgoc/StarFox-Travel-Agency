@@ -5577,13 +5577,71 @@ th.hide-for-touch {
   #header-block .top-bar {
     position: absolute;
     bottom: -20px;
-    text-align: center; }
-  #header-block .top-bar .top-bar-section {
-    display: inline-block; }
-  #header-block .top-bar .top-bar-section ul li a {
-    color: #99CCCC;
-    font-size: 15px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600; }
-  #header-block .top-bar .top-bar-section ul li a:hover {
-    color: #FFF; }
+    left: 159px;
+    text-align: center;
+    border-radius: 10px;
+    width: 80%; }
+    #header-block .top-bar .top-bar-section {
+      display: inline-block; }
+      #header-block .top-bar .top-bar-section ul li a {
+        color: #99CCCC;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600; }
+      #header-block .top-bar .top-bar-section ul li a:hover {
+        color: #FFF; }
+
+#content-block {
+  position: relative;
+  display: block;
+  top: 70px; }
+  #content-block .main-content {
+    background-color: #99CCCC;
+    padding: 50px;
+    border-radius: 5px; }
+    #content-block .main-content p {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 25px;
+      font-weight: 300; }
+    #content-block .main-content img {
+      position: absolute;
+      bottom: -100px;
+      padding: 20px; }
+    #content-block .main-content .button {
+      position: absolute;
+      background-color: #666;
+      top: 120px;
+      left: 30px;
+      width: 90%;
+      border-bottom: 5px solid #000; }
+  #content-block .link-content {
+    text-align: center;
+    margin: 50px auto 100px auto; }
+    #content-block .link-content h4, #content-block .link-content h1, #content-block .link-content p {
+      color: #FFF;
+      font-family: 'Open Sans', sans-serif; }
+    #content-block .link-content .moon {
+      background-color: #666;
+      padding: 35px;
+      margin-right: 10px;
+      margin-left: -20px; }
+    #content-block .link-content .earth {
+      background-color: #666;
+      padding: 35px; }
+    #content-block .link-content .jupiter {
+      background-color: #666;
+      list-style-type: none; }
+      #content-block .link-content .jupiter .button.expand {
+        top: 27px;
+        background-color: #666; }
+
+#footer-block {
+  position: relative;
+  top: 25px;
+  height: 70px;
+  background-color: #494949; }
+  #footer-block p {
+    color: #666;
+    text-align: center;
+    padding: 25px;
+    font-size: 15px; }

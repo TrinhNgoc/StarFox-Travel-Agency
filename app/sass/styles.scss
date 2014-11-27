@@ -3,6 +3,10 @@
 
 $teal:#99CCCC;
 $black: #000;
+$grey: #666;
+$darkgrey: #333;
+$footergrey: #494949;
+$white: #FFF;
 
 #header-block {
   background-color: $teal;
@@ -31,24 +35,101 @@ $black: #000;
   .top-bar {
     position: absolute;
     bottom: -20px;
+    left: 159px;
     text-align: center;
-  }
+    border-radius: 10px;
+    width: 80%;
 
-  .top-bar .top-bar-section {
-    display: inline-block;
-  }
+    .top-bar-section {
+      display: inline-block;
 
-  .top-bar .top-bar-section ul li a {
-    color: $teal;
-    font-size: 15px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-  }
+      ul li a {
+        color: $teal;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+      }
 
-  .top-bar .top-bar-section ul li a:hover {
-    color: #FFF;
+      ul li a:hover {
+        color: $white;
+      }
+    }
   }
 }
 
+#content-block {
+  position: relative;
+  display: block;
+  top: 70px;
 
+  .main-content{
+    background-color: $teal;
+    padding: 50px;
+    border-radius: 5px;
+    p {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 25px;
+      font-weight: 300;
+    }
+    img {
+      position: absolute;
+      bottom: -100px;
+      padding: 20px;
+    }
+    .button {
+      position: absolute;
+      background-color: $grey;
+      top: 120px;
+      left: 30px;
+      width: 90%;
+      border-bottom: 5px solid $black;
+    }
+  }
 
+  .link-content{
+    // position: absolute;
+    text-align: center;
+    margin: 50px auto 100px auto;
+
+    h4, h1, p{
+      color: $white;
+      font-family: 'Open Sans', sans-serif; 
+    }
+    
+    .moon {
+      background-color: $grey;
+      padding: 35px;
+      margin-right: 10px;
+      margin-left: -20px;
+    }
+
+    .earth {
+      background-color: $grey;
+      padding: 35px;
+    }
+
+    .jupiter {
+      background-color: $grey;
+      list-style-type: none;
+
+      .button.expand {
+        top: 27px;
+        background-color: $grey; 
+      }
+    }
+  }
+}
+
+#footer-block {
+  position: relative;
+  top: 25px;
+  height: 70px;
+  background-color: $footergrey; 
+
+  p{
+    color: $grey;
+    text-align: center;
+    padding: 25px;
+    font-size: 15px;
+  }
+}
